@@ -25,9 +25,15 @@ namespace SaddlePoints
             List<(int, int)> saddlePoints = new List<(int, int)>();
 
             for (int i = 0; i < matrix.GetLength(0); i++)
+            {
                 for (int j = 0; j < matrix.GetLength(1); j++)
-                    if (matrix.HasSaddlePointAt((i, j))) 
+                {
+                    if (matrix.HasSaddlePointAt((i, j)))
+                    {
                         saddlePoints.Add((i, j));
+                    }
+                }
+            }
 
             return saddlePoints;
         }
