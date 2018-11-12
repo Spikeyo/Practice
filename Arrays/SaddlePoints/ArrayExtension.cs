@@ -19,11 +19,17 @@ namespace SaddlePoints
 
             //loops through row, return false if any other element is greater
             for (int i = 0; i < matrix.GetLength(1); i++)
-                if (matrix[position.Item1, i] > saddleValue) return false;
+            {
+                if (matrix[position.Item1, i] > saddleValue) 
+                    return false;
+            }
 
             //loops through column, return false if any other element is smaller
             for (int i = 0; i < matrix.GetLength(0); i++)
-                if (matrix[i, position.Item2] < saddleValue) return false;
+            {
+                if (matrix[i, position.Item2] < saddleValue)
+                    return false;
+            }
 
             return true;
         }
