@@ -9,9 +9,9 @@ using System.Collections.Generic;
 
 /// <summary>
 /// Finds saddle points in a matrix. A saddle point is an element that
-///  is greater than or equal to every other element
-///  in its row and, at the same time, less than or equal to every other
-///  element in its column.
+///  is greater than or equal to every other element in its row and,
+///  at the same time, less than or equal to every other element in
+///  its column.
 /// </summary>
 public class SaddlePointsFinder
 {
