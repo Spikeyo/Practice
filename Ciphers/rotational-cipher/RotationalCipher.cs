@@ -26,9 +26,11 @@ namespace RotationalCipher
             //If target is upper case letter
             if (target >= 65 && target <= 90)
                 return (char) ((target + shiftKey - 65) % 26 + 65);
+            
             //If target is lower case letter
             if (target >= 97 && target <= 122)
                 return (char) ((target + shiftKey - 97) % 26 + 97); 
+            
             return target;
         }
     }
