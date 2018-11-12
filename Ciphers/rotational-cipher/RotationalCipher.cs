@@ -13,7 +13,8 @@ namespace RotationalCipher
     {
         public static string RotateString(string text, int shiftKey)
         {
-            if (text == null) throw new ArgumentNullException();
+            if (text == null) 
+                throw new ArgumentNullException();
 
             var encryptedChars = text.Select(x => RotateChar(x, shiftKey));
         
