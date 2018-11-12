@@ -1,5 +1,4 @@
 //****************************************************************
-//
 // Solution for the exercise SaddlePoints in Exercism.io
 //
 // ~Spikeyo

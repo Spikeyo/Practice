@@ -1,5 +1,4 @@
 //*************************************************************
-//
 // Solution for the RotationalCipher exercise in Exercism.io
 //
 // ~Spikeyo
