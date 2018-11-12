@@ -6,7 +6,7 @@ public static class CollatzConjecture
     {
         if (number < 1)
         {
-            throw new ArgumentOutOfRangeException();
+            throw new ArgumentOutOfRangeException("number should be positive.");
         }
 
         int numSteps = 0;
