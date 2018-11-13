@@ -4,7 +4,7 @@
 // ~Spikeyo
 //****************************************************************
 
-namespace Songs.Verses
+namespace BeerSongProject.Verses
 {
     public class MoreThanTwoBeersVerse : BeerVerse
     {

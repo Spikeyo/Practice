@@ -5,9 +5,9 @@
 //****************************************************************
 
 using System;
-using Songs.Verses;
+using BeerSongProject.Verses;
 
-namespace Songs
+namespace BeerSongProject
 {
     public static class VerseCreator
     {

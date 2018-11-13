@@ -6,7 +6,7 @@
 
 using System.Text;
 
-namespace Songs
+namespace BeerSongProject
 {
     public static class BeerSong
     {
