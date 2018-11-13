@@ -31,9 +31,3 @@ public class GradeSchool
         return sortedStudents.Select(x => x.name);
     }
 }
-
-public struct Student
-{
-    public string name;
-    public int grade;
-}
