@@ -2,7 +2,7 @@
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace Acronyms
+namespace AcronymProject
 {
     public static class Acronym
     {
