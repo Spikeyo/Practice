@@ -1,3 +1,9 @@
+//****************************************************************
+// Solution for the GradeSchool exercise in Exercism.io
+//
+// ~Spikeyo
+//****************************************************************
+
 using System.Collections.Generic;
 using System.Linq;
 
