@@ -18,7 +18,10 @@ public class Matrix
     public int Rows => allRows.Length;
     public int Cols => allRows[0].Length;
 
-    public int[] Row(int index) => allRows[index].ToArray();
+    public int[] Row(int index)
+    {
+        return allRows[index].ToArray();
+    }
 
     public int[] Column(int index)
     {
