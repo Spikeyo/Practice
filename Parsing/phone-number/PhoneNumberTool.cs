@@ -57,5 +57,5 @@ public static class PhoneNumberTool
     }
 
     private static bool IsCountryCodeValid(char c) => c != '1';
-    private static bool IsNDigitValid(char c) => c >= 2;
+    private static bool IsNDigitValid(char c) => char.GetNumericValue(c) >= 2;
 }
