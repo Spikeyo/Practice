@@ -37,16 +37,16 @@ public class RobotSimulator
 
     public void TurnRight()
     {
-        CurrentDirection = CurrentDirection == Direction.West 
+        CurrentDirection = (CurrentDirection == Direction.West 
                             ? Direction.North 
-                            : CurrentDirection++;
+                            : CurrentDirection+1);
     }
 
     public void TurnLeft()
     {
-        CurrentDirection = CurrentDirection == Direction.North 
+        CurrentDirection = (CurrentDirection == Direction.North 
                             ? Direction.West 
-                            : CurrentDirection--;
+                            : CurrentDirection-1);
     }
 
     public void Advance()
