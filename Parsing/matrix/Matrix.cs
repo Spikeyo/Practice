@@ -10,7 +10,7 @@ public class Matrix
     {
         var rowStrings = input.Split("\n");
         
-        var rows = rowStrings.Select(RowStringtoArray);
+        var rows = rowStrings.Select(RowStringToArray);
 
         this.allRows = rows.ToArray();
     }
@@ -30,7 +30,7 @@ public class Matrix
         return column.ToArray();
     } 
 
-    private int[] RowStringtoArray(string rowString)
+    private int[] RowStringToArray(string rowString)
     {
         var digitStrings = rowString.Split(' ');
 
