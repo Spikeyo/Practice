@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 
 /// <summary>
-/// A classic Accumulate function without LINQ
+/// A classic set of IEnumerable query operators
 /// </summary>
 public static class IEnumerableExtension
 {
