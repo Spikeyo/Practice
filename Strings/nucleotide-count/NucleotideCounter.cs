@@ -7,9 +7,9 @@
 using System;
 using System.Collections.Generic;
 
-namespace Nucleotide
+namespace NucleotideCounterProject
 {
-    public static class NucleotideCount
+    public static class NucleotideCounter
     {
         public static IDictionary<char, int> Count(string sequence)
         {
