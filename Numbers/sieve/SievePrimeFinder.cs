@@ -11,14 +11,14 @@ public static class SievePrimeFinder
             throw new ArgumentOutOfRangeException("limit should be greater than 1.");
         }
 
-        var range = Enumerable.Range(2, limit - 1).ToList();
+        var rangeList = Enumerable.Range(2, limit - 1).ToList();
 
-        for (int i = 0; i < range.Count; i++)
+        for (int i = 0; i < rangeList.Count; i++)
         {
-            range.RemoveMultiplesOf(range[i], limit);
+            rangeList.RemoveMultiplesOf(rangeList[i], limit);
         }
 
-        return range.ToArray();
+        return rangeList.ToArray();
     }
     
     private static void RemoveMultiplesOf(this List<int> target, int toMultiply, int limit)
