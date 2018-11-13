@@ -13,4 +13,26 @@ public static class IEnumerableExtension
             yield return func(item);
         }
     }
+    
+    public static IEnumerable<T> Keep<T>(this IEnumerable<T> collection, Func<T, bool> predicate)
+    {
+        foreach (T item in collection)
+        {
+            if (predicate(item))
+            {
+                yield return item;
+            }  
+        }
+    }
+
+    public static IEnumerable<T> Discard<T>(this IEnumerable<T> collection, Func<T, bool> predicate)
+    {
+        foreach (T item in collection)
+        {
+            if (!predicate(item))
+            {
+                yield return item;
+            }
+        }
+    }
 }
