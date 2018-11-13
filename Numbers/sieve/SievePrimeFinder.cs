@@ -8,7 +8,7 @@ public static class SievePrimeFinder
     {
         if (limit < 2)
         {
-            throw new ArgumentOutOfRangeException("limit should be greater than 1.");
+            throw new ArgumentOutOfRangeException(nameof(limit), "limit should be greater than 1.");
         }
 
         var rangeList = Enumerable.Range(2, limit - 1).ToList();
