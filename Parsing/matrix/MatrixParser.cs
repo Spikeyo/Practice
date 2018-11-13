@@ -1,4 +1,8 @@
-﻿
+﻿//*************************************************************
+// Solution for the Matrix exercise in Exercism.io
+//
+// ~Spikeyo
+//*************************************************************
 
 using System;
 using System.Collections.Generic;
