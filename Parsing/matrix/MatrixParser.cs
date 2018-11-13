@@ -1,12 +1,14 @@
-﻿using System;
+﻿
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
-public class Matrix    
+public class MatrixParser    
 {
     private readonly int[][] allRows;
 
-    public Matrix(string input)
+    public MatrixParser(string input)
     {
         var rowStrings = input.Split("\n");
         
