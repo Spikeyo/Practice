@@ -48,6 +48,5 @@ namespace ProverbProject
         {
             return target.Take(target.Count() - 1);
         }
-
     }
 }
