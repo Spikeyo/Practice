@@ -21,11 +21,11 @@ public static class SievePrimeFinder
         return rangeList.ToArray();
     }
     
-    private static void RemoveMultiplesOf(this List<int> target, int toMultiply, int limit)
+    private static void RemoveMultiplesOf(this List<int> target, int divisor, int limit)
     {
-        for (var i = 2; i * toMultiply <= limit; i++)
+        for (var i = 2; i * divisor <= limit; i++)
         {
-            target.Remove(i * toMultiply);
+            target.Remove(i * divisor);
         }
     }
 }
