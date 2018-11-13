@@ -2,7 +2,7 @@
 
 namespace ArmstrongNumbers
 {
-    public static class ArmstrongNumber
+    public static class ArmstrongNumbers
     {
         public static bool IsArmstrongNumber(int number)
         {
