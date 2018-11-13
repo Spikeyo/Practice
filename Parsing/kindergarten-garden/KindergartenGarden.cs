@@ -64,7 +64,7 @@ public class KindergartenGarden
         
         var split = diagram.Split("\n");
 
-        int numStudents = split[0].Length / 4;
+        int numStudents = split[0].Length / 2;
 
         for (int i = 0; i < numStudents; i++)
         {
